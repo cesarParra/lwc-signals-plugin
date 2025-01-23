@@ -1,7 +1,7 @@
 {
   "name": "lwc-signals-plugin",
   "description": "sf cli plugin for the LWC Signals library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "@babel/core": "^7.26.0",
     "@babel/plugin-syntax-decorators": "^7.25.9",
@@ -59,7 +59,6 @@
     "format": "wireit",
     "link-check": "wireit",
     "lint": "wireit",
-    "postinstall": "yarn husky install",
     "postpack": "sf-clean --ignore-signing-artifacts",
     "prepack": "sf-prepack",
     "test": "wireit",
@@ -102,7 +101,7 @@
       "output": []
     },
     "lint": {
-      "command": "eslint src test --color --cache --cache-location .eslintcache",
+      "command": "eslint src --color --cache --cache-location .eslintcache",
       "files": [
         "src/**/*.ts",
         "test/**/*.ts",
