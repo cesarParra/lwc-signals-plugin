@@ -20,7 +20,7 @@ sf plugins install lwc-signals-plugin
 
 ## Usage
 
-This plugins has no commands. If your code has the `@bind` decorator, the plugin will automatically
+This plugin has no commands. If your code has the `@bind` decorator, the plugin will automatically
 transform your code into a format that LWC can push it to your org, and then transform it back to the original
 code after the push.
 
