@@ -3,7 +3,7 @@
   "description": "sf cli plugin for the LWC Signals library",
   "version": "1.0.1",
   "dependencies": {
-    "@babel/core": "^7.26.0",
+    "@babel/core": "^7.26.10",
     "@babel/plugin-syntax-decorators": "^7.25.9",
     "@oclif/core": "^4",
     "@salesforce/core": "^8",
